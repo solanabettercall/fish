@@ -1,1 +1,25 @@
 fish_variables
+*.local
+*.local.*
+*.local/
+
+# Fisher plugin files (managed automatically, not tracked)
+functions/fisher.fish
+functions/replay.fish
+functions/nvm.fish
+functions/__z*.fish
+functions/_z*.fish
+functions/_autopair*.fish
+functions/_fzf*.fish
+functions/fzf_configure_bindings.fish
+functions/_nvm*.fish
+
+completions/fisher.fish
+completions/fzf_configure_bindings.fish
+completions/nvm.fish
+completions/replay.fish
+
+conf.d/autopair.fish
+conf.d/fzf.fish
+conf.d/nvm.fish
+conf.d/z.fish
