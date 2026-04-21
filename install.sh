@@ -1,6 +1,5 @@
 #!/bin/bash
 sudo apt install fish bat eza fzf fd-find git-delta -y
-curl -sS https://starship.rs/install.sh | sh
 
 fish -c 'curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher && fisher update'
 
